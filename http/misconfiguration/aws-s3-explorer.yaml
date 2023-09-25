@@ -21,7 +21,11 @@ http:
   - method: GET
     path:
       - "{{BaseURL}}/index.html"
-
+      - "{{BaseURL}}/fileviewer.html"
+      - "{{BaseURL}}/s3_browser.html"
+      - "{{BaseURL}}/browse.html"
+      - "{{BaseURL}}/browser.html"
+      
     matchers-condition: and
     matchers:
       - type: word
